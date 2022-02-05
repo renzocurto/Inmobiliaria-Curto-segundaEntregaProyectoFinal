@@ -1,3 +1,4 @@
+
 body {
   background-color: #e7e7e7; }
 
@@ -39,11 +40,11 @@ a {
 img {
   border-radius: 5px;
 
-  margin: 20px;  
+    
 }
 
 p {
-  color: orangered;
+  color: red;
   margin-left: 50px;
   margin-right: 50px;
   margin-top: 50px;
@@ -74,3 +75,218 @@ h1, h2, h3, h4, form {
   margin-right: 50px;
   margin-top: 50px;
   margin-bottom: 50px; }
+
+  .card {
+
+    margin-left: 25px;
+  
+    margin-right: 25px;
+  }
+
+  @media only screen and (min-width:769px){
+
+    nav, footer {
+      font-size: 18px;
+    
+    }
+  
+      form {
+  
+          font-size: 18px;
+  
+      }
+  }
+  
+  @media only screen and (min-width:600px) and (max-width:768px){
+  
+      .img, img {
+  
+        height: 200px;
+
+        width: 200px;
+      }
+  
+      .nav, .pie {
+  
+          justify-content: center;
+      }
+
+      .logo {
+
+        height: 60px;
+      
+          width: 120px;
+    
+      }
+  
+  
+  }
+  
+  @media only screen and (min-width:321px) and (max-width:599px){
+  
+    .img, img {
+  
+      height: 150px;
+
+      width: 150px;
+  }
+  
+      .nav, .pie {
+  
+          justify-content: center;
+  
+          font-size: 12px;
+  
+  
+      }
+  
+      .titulos{
+  
+              font-size: 10px;
+  
+              background-color:rgb(240, 230, 218) ;
+  
+              letter-spacing: 1px;
+  
+  
+      }
+  
+      p {
+  
+          font-size: 11px;
+      }
+      
+      
+      .cuerpo {
+  
+          background-color:rgb(240, 230, 218) ;
+  
+          justify-items: center;
+  
+  
+      }
+  
+      h1 {
+  
+          letter-spacing: 2px;
+      }
+  
+      .logo-redes {
+  
+          height: 30px;
+  
+          width: 30px;
+      }
+  
+      form {
+  
+          font-size: 14px;
+  
+      }
+
+      .logo {
+
+        height: 50px;
+      
+          width: 100px;
+
+      }
+
+      iframe {
+
+        height: 150px;
+    
+          width: 300px;
+    
+    
+      }
+  }
+  
+  @media only screen and (max-width:320px){
+  
+    .img, img {
+  
+      height: 150px;
+
+      width: 150px;
+  }
+  
+      .titulos{
+  
+          font-size: 10px;
+  
+          background-color:rgb(240, 230, 218) ;
+  
+  
+      }
+  
+      h1 {
+  
+          letter-spacing: 1px;
+  
+          font-size: 14px;
+      }
+  
+  
+  
+      .cuerpo {
+  
+      background-color:rgb(240, 230, 218) ;
+  
+      justify-items: center;
+  
+  
+  }
+  
+  .nav, .pie {
+  
+      justify-content: center;
+  
+      font-size: 10px;
+  
+  
+  }
+  
+  p {
+  
+      font-size: 10px;
+  }
+  
+  .logo-redes {
+  
+      height: 21px;
+  
+      width: 21px;
+  }
+  
+  form {
+  
+      font-size: 10px;
+  
+  }
+
+  .logo {
+
+    height: 30px;
+  
+      width: 60px;
+
+  }
+
+  h5 {
+
+    font-size: 12px;
+  }
+  
+  iframe {
+
+    height: 150px;
+
+      width: 250px;
+
+
+  }
+  }
+
+  
+  

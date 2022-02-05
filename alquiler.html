@@ -13,13 +13,18 @@
 
     <link rel="stylesheet" href="./css/style.css">
 
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet"
+/>
+
+
     <title>Alquiler</title>
   </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="https://st.depositphotos.com/1353542/2505/i/950/depositphotos_25050079-stock-photo-logo-a-house-with-a.jpg" alt="logo" height="30" width="30" class="logo"></a>
+          <a class="navbar-brand" href="#"><img src="./assets/CURTO.png" alt="logo" height="54" width="100" class="logo"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -53,9 +58,9 @@
         
       <div>
 
-        <h1 class="d-flex justify-content-center">Alquiler</h1>
+        <h1 class="d-flex justify-content-center text-center">Alquiler</h1>
 
-        <h2 class="d-flex justify-content-center">Mudate a la vida que querés</h2>
+        <h2 class="d-flex justify-content-center text-center">Mudate a la vida que querés</h2>
 
 
         </div>
@@ -70,33 +75,187 @@
 
         <h3 class="d-flex justify-content-center" id="unico">GALERÍA</h3>
 
-        <div class="container" id="galeria">
-          <div class="row">
-              <div class="col-lg-4 col-md-6 col-sm-12">
-              <img src="./assets/foto-casa1.jpg" alt="fotito1" height="350" width="350">
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
-              <img src="./assets/foto-casa2.jpg" alt="fotito2" height="350" width="350">
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
-               <img src="./assets/foto-casa3.jpg" alt="fotito3" height="350" width="350">
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div class="col">
+            <div class="card h-100 text-center">
+              <img src="./assets/foto-casa1.jpg" alt="fotito1" height="350" width="350" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">$95.000</h5>
+                <p class="card-text">Dúplex de 3 Dor <br>
+                  Dúplex a estrenar de Categoría. Cuenta con living comedor, amplio balcón. Cocina separada, 3 dormitorios. 3 baños. <br>
+                  Calefacción por radiador <br>
+                  Sum, pileta, parrilla, solarium.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Disponible a partir de junio</small>
+              </div>
             </div>
           </div>
+          <div class="col">
+            <div class="card h-100 text-center">
+              <img src="./assets/foto-casa2.jpg" alt="fotito2" height="350" width="350" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">$155.000</h5>
+                <p class="card-text">Casa de 2 Dor <br>
+                  Inmejorable casa, lote 10 x 60. <br>
+                  En su totalidad mide 600 m2, de los cuales 120 m2 son cubiertos y 480 m2 descubiertos. <br>
+                  Cuenta con cinco ambientes: dos dormitorios, dos baños y cocina. Quincho con parrilla. <br>
+                  Cuenta con dos cocheras cubiertas. Fondo con verde, Posee piscina de 7,50 x 4.</p>
+                <a href="#" class="btn btn-dark">Coordinar visita</a>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Ya Disponible</small>
+              </div>
+            </div>
+          </div>
+          
+        </div>
 
-          <div class="row">
-            <div class="col-lg-4 col-md-6 col-sm-12">
-              <img src="./assets/foto-casa4.jpg" alt="fotito4" height="350" width="350">
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
-              <img src="./assets/foto-casa5.jpg" alt="fotito5" height="350" width="350">
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
-              <img src="./assets/foto-casa6.jpg" alt="fotito6" height="350" width="350">
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div class="col">
+            <div class="card h-100 text-center">
+              <img src="./assets/foto-casa4.jpg" alt="fotito4" height="350" width="350" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">$45.000</h5>
+                <p class="card-text">Dúplex de 3 Dor <br>
+                  Departamento a estrenar de Categoría. Cuenta con living comedor, amplio balcón. Cocina separada, 3 dormitorios. 3 baños. <br>
+                  Calefacción por radiador <br>
+                  Espacios en común: sum, pileta, parrilla, solarium.</p>
+                <a href="#" class="btn btn-dark">Coordinar visita</a>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Ya Disponible</small>
+              </div>
             </div>
           </div>
+          <div class="col">
+            <div class="card h-100 text-center">
+              <img src="./assets/foto-casa5.jpg" alt="fotito5" height="350" width="350" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">$75.000</h5>
+                <p class="card-text">Dúplex de 2 Dor <br>
+                  P.A. 2 dormitorios, baño completo. <br>
+                  P.B. amplio living comedor, cocina integrada con muebles bajo mesada, patio, cochera descubierta.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Disponible a partir de Marzo</small>
+              </div>
             </div>
+          </div>
+          
         </div>
+
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="./assets/foto-casa3.jpg" alt="fotito3" height="350" width="350" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">$245.000</h5>
+              <p class="card-text">Casa de 3 Dor <br>
+            
+                Planta baja: living con estufa hogar, calefacción por radiadores, pisos de madera, ventanales con vista al parque, cocina totalmente amueblada muy luminosa, escritorio con baño completo, parrilla separada, baño y lavadero, garage para dos autos, parque, pileta y solárium. <br>
+                
+                Planta alta: amplio pasillo de distribución, escritorio, dos dormitorios con placar y pisos de madera, baño completo.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Disponnible a partir de Abril</small>
+            </div>
+          </div>
         </div>
+
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="./assets/foto-casa6.jpg" alt="fotito6" height="350" width="350" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">$295.000</h5>
+              <p class="card-text">Casa de 5 Dor <br>
+              
+                Casa de categoría, distribuida en dos plantas. 5 dormitorios (2 en suite), 4 baños, un toilette, cocina comedor, amplio living, sala de juegos, patio interno. <br>
+
+                Garage cubierto para 3 autos, lavadero, quincho con parrilla y baño, pileta, fondo con verde. <br>
+                
+                Estado de la propiedad: Excelente <br>
+                Superficie del terreno: 704 m2 <br>
+                Fondo libre: 317 m</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Disponible a partir de Mayo</small>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+        <footer class="text-center text-white" style="background-color: #f1f1f1;">
+          <!-- Grid container -->
+          <div class="container pt-4">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+              <!-- Facebook -->
+              <a
+                class="btn btn-link btn-floating btn-lg text-dark m-1"
+                href="https://www.facebook.com"
+                role="button"
+                data-mdb-ripple-color="dark"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+        
+              <!-- Twitter -->
+              <a
+                class="btn btn-link btn-floating btn-lg text-dark m-1"
+                href="https://twitter.com/home"
+                role="button"
+                data-mdb-ripple-color="dark"
+                ><i class="fab fa-twitter"></i
+              ></a>
+        
+              <!-- Google -->
+              <a
+                class="btn btn-link btn-floating btn-lg text-dark m-1"
+                href="#!"
+                role="button"
+                data-mdb-ripple-color="dark"
+                ><i class="fab fa-google"></i
+              ></a>
+        
+              <!-- Instagram -->
+              <a
+                class="btn btn-link btn-floating btn-lg text-dark m-1"
+                href="https://www.instagram.com"
+                role="button"
+                data-mdb-ripple-color="dark"
+                ><i class="fab fa-instagram"></i
+              ></a>
+        
+              <!-- Linkedin -->
+              <a
+                class="btn btn-link btn-floating btn-lg text-dark m-1"
+                href="https://www.linkedin.com"
+                role="button"
+                data-mdb-ripple-color="dark"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <!-- Github -->
+              <a
+                class="btn btn-link btn-floating btn-lg text-dark m-1"
+                href="https://github.com"
+                role="button"
+                data-mdb-ripple-color="dark"
+                ><i class="fab fa-github"></i
+              ></a>
+            </section>
+            <!-- Section: Social media -->
+          </div>
+          <!-- Grid container -->
+        
+          <!-- Copyright -->
+          <div class="text-center text-dark p-3" style="background-color: #f1f1f1;">
+            © 2022 Copyright:
+            <a class="text-dark" href="https://mdbootstrap.com/">EncantoDevelops.com</a>
+          </div>
+          <!-- Copyright -->
+        </footer>
 
     
     
